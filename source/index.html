@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Список специалистов</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="fonts/Roboto.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body class="page">
+  <div class="page__wrapper">
+    <header class="header">
+      <div class="header__title-wrapper">
+        <h1 class="header__title">
+          Избранное
+        </h1>
+      </div>
+      <button class="header__delete-btn"></button>
+    </header>
+    <main class="main">
+      <section class="main__specialists">
+        <div class="main__specialists-item specialist" id="user-12000">
+          <div class="specialist__wrapper">
+            <div class="specialist__avatar-wrapper specialist__avatar-wrapper--online">
+              <img class="specialist__avatar" src="./img/img1.jpg" alt="Фото специалиста" width="100" height="100">
+            </div>
+            <div class="specialist__content">
+              <p class="specialist__name">Андреев<br>Руслан Алексеевич
+              </p>
+              <p class="specialist__occupation">Юрист</p>
+              <p class="specialist__price">2 150 Р/час</p>
+            </div>
+            <div class="specialist__panel panel">
+              <div class="specialist__rating panel__item">10</div>
+              <div class="specialist__info panel__item">
+                <a class="specialist__info-link" href="#" alt="Посмотреть информацию о специалисте">i</a>
+              </div>
+              <div class="specialist__messages panel__item">36</div>
+              <div class="specialist__send-message panel__item">
+                <a class="specialist__message-link" href="#" alt="Отправить сообщение специалисту"></a>
+              </div>
+            </div>
+          </div>
+          <div class="specialist__delete">
+            <button class="specialist__delete-btn"></button>
+          </div>
+        </div>
+        <div class="main__specialists-item specialist" id="user-12001">
+          <div class="specialist__wrapper">
+            <div class="specialist__avatar-wrapper">
+              <img class="specialist__avatar" src="./img/img2.jpg" alt="Фото специалиста" width="100" height="100">
+            </div>
+            <div class="specialist__content">
+              <p class="specialist__name">Терехов<br>Дмитрий Борисович</p>
+              <p class="specialist__occupation">Юрист</p>
+              <p class="specialist__price">2 000 Р/час</p>
+            </div>
+            <div class="specialist__panel panel">
+              <div class="specialist__rating panel__item">9,5</div>
+              <div class="specialist__info panel__item">
+                <a class="specialist__info-link" href="#" alt="Посмотреть информацию о специалисте">i</a>
+              </div>
+              <div class="specialist__messages panel__item">2</div>
+              <div class="specialist__send-message panel__item">
+                <a class="specialist__message-link" href="#" alt="Отправить сообщение специалисту"></a>
+              </div>
+            </div>
+          </div>
+          <div class="specialist__delete">
+            <button class="specialist__delete-btn"></button>
+          </div>
+        </div>
+
+        <div class="main__specialists-item specialist" id="user-12002">
+          <div class="specialist__wrapper">
+            <div class="specialist__avatar-wrapper">
+              <img class="specialist__avatar" src="./img/img3.jpg" alt="Фото специалиста" width="100" height="100">
+            </div>
+            <div class="specialist__content">
+              <p class="specialist__name">Васильева<br>Анна Геннадьевна</p>
+              <p class="specialist__occupation">Адвокат</p>
+              <p class="specialist__price">800 Р/час</p>
+            </div>
+            <div class="specialist__panel panel">
+              <div class="specialist__rating panel__item">5,6</div>
+              <div class="specialist__info panel__item">
+                <a class="specialist__info-link" href="#" alt="Посмотреть информацию о специалисте">i</a>
+              </div>
+              <div class="specialist__messages panel__item">14</div>
+              <div class="specialist__send-message panel__item">
+                <a class="specialist__message-link" href="#" alt="Отправить сообщение специалисту"></a>
+              </div>
+            </div>
+          </div>
+          <div class="specialist__delete">
+            <button class="specialist__delete-btn"></button>
+          </div>
+        </div>
+
+        <div class="main__specialists-item specialist" id="user-12003">
+          <div class="specialist__wrapper">
+            <div class="specialist__avatar-wrapper">
+              <img class="specialist__avatar" src="./img/img2.jpg" alt="Фото специалиста" width="100" height="100">
+            </div>
+            <div class="specialist__content">
+              <p class="specialist__name">Архипов<br>Юрий Юрьевич</p>
+              <p class="specialist__occupation">Юрист</p>
+              <p class="specialist__price">1 800 Р/час</p>
+            </div>
+            <div class="specialist__panel panel">
+              <div class="specialist__rating panel__item">7,8</div>
+              <div class="specialist__info panel__item">
+                <a class="specialist__info-link" href="#" alt="Посмотреть информацию о специалисте">i</a>
+              </div>
+              <div class="specialist__messages panel__item">9</div>
+              <div class="specialist__send-message panel__item">
+                <a class="specialist__message-link" href="#" alt="Отправить сообщение специалисту"></a>
+              </div>
+            </div>
+          </div>
+          <div class="specialist__delete">
+            <button class="specialist__delete-btn"></button>
+          </div>
+        </div>
+  </div>
+  </section>
+  </main>
+  <footer class="footer">
+    <nav class="footer__nav nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__item-link nav__item-link--profile" href="#">Профиль</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-link nav__item-link--messages" href="#">Сообщения</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-link nav__item-link--catalog" href="#">Каталог</a>
+        </li>
+        <li class="nav__item nav__item--active">
+          <span class="nav__item-link nav__item-link--active nav__item-link--favorites">Избранное</span>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+  <div class="popup">
+    <div class="popup__wrapper">
+      <div class="popup__content">
+        <h2 class="popup__subject">Удалить из избранного?</h2>
+        Данный специалист будет удален из ваших закладок
+      </div>
+      <div class="popup__btn popup__btn--first">
+        <button class="popup__cancel_btn">
+          Отмена
+        </button>
+      </div>
+      <div class="popup__btn">
+        <button class="popup__delete-btn">
+          Удалить
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="util-popup">
+
+  </div>
+  <script src="js/hammer.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
